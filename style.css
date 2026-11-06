@@ -21,10 +21,12 @@ body {
   padding: 10px;
 }
 
-.voce {
-  display: inline-block;
-  margin: 5px 12px;
+.voce-menu{
+  display: block;
+  margin: 15px 12px;
   font-weight: bold;
+  color:deeppink;
+  font-family: 'Audiowide', cursive;
 }
 
 .contenuto {
@@ -63,4 +65,12 @@ body {
 .tit-main{
     font-family: 'Audiowide', cursive;
     text-align: center;
+    color:deeppink;
+}
+.menu-laterale {
+  width: 180px;
+  background-color:#0d111a;
+  padding: 20px;
+  border-right: 3px solid deeppink;
+  text-decoration: none;
 }
